@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 1440px;
+
+}
+
+header{
+    height: 144px; /*根据背景图片高度修改*/
+    width: 1440px;/*根据背景图片宽度修改*/
+    background-image: url(../images/head.jpg);
+}
+
+nav {
+    height: 50px;
+    background-color: #ec6a0e;
+}
+
+nav ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 225px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative; /*相对定位*/
+    vertical-align: bottom;
+    
+}
+
+
+nav ul li a {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #fff;
+    display: block;
+    text-decoration: none; /*下划线不美观 删除*/
+    margin: 0 60px;
+}
+
+
+#container {
+    height: 800px;
+    background-image:url(../images/backgroud.jpg);
+    padding-bottom: 200px;
+}
+
+form textarea {
+	width: 500px;
+	height: 400px;
+    padding: 10px;
+}
+
+#container div.inner #sheet {
+    width: 700px;
+    height: 800px;
+    background-image: url(../images/container-background.jpg);
+    position: absolute; /*绝对定位*/
+    left: 370px;
+    right: 370px;
+    top: 284px;
+    display: table;
+    border: thin dotted #7e7e7e;
+    
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px;
+    color: white;
+    font-weight:bolder;
+    font-family:sans-serif;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}
+
+#footer{
+    background-color: #ec6a0e;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+    font-weight: bold;
+    height: 30px;
+}
